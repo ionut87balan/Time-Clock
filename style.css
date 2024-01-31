@@ -1,0 +1,18 @@
+body {
+    display: flexbox;
+    align-items: center;
+    background: rgb(161, 86, 20);
+    color: white;
+  }
+  
+  p {align-content: center;}
+  pre code {
+    font: 11pt/1.25 Monaco, monospace;
+  }
+
+  
+  .debug { color: Snow; }
+  .info  { color: LawnGreen; 
+             display: flex;}
+  .warn  { color: GoldenRod; }
+  .error { color: LightCoral; }
